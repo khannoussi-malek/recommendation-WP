@@ -1,0 +1,170 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "cakewp/block-slide",
+	"title": "Slide",
+	"parent": [
+		"cakewp/block-slider"
+	],
+	"category": "text",
+	"description": "A blockslide represent a single blockslider slide.",
+	"keywords": [
+		"slide"
+	],
+	"version": "1.0.0",
+	"textdomain": "block-slider",
+	"usesContext": [
+		"templateSlug",
+		"block-slider/is-query-slider",
+		"block-slider/query",
+		"_blocksliderOnClick"
+	],
+	"attributes": {
+		"padding": {
+			"type": "object",
+			"default": {
+				"top": "",
+				"right": "",
+				"bottom": "",
+				"left": ""
+			}
+		},
+		"paddingTablet": {
+			"type": "object",
+			"default": {
+				"top": "",
+				"right": "",
+				"bottom": "",
+				"left": ""
+			}
+		},
+		"paddingMobile": {
+			"type": "object",
+			"default": {
+				"top": "",
+				"right": "",
+				"bottom": "",
+				"left": ""
+			}
+		},
+		"borderRadius": {
+			"type": "object",
+			"default": {
+				"top": "",
+				"right": "",
+				"bottom": "",
+				"left": ""
+			}
+		},
+		"borderRadiusTablet": {
+			"type": "object",
+			"default": {
+				"top": "",
+				"right": "",
+				"bottom": "",
+				"left": ""
+			}
+		},
+		"borderRadiusMobile": {
+			"type": "object",
+			"default": {
+				"top": "",
+				"right": "",
+				"bottom": "",
+				"left": ""
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"width": "",
+				"style": "",
+				"color": ""
+			}
+		},
+		"borderTablet": {
+			"type": "object",
+			"default": {
+				"width": "",
+				"style": "",
+				"color": ""
+			}
+		},
+		"borderMobile": {
+			"type": "object",
+			"default": {
+				"width": "",
+				"style": "",
+				"color": ""
+			}
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "",
+				"gradient": "",
+				"opacity": ""
+			}
+		},
+		"backgroundTablet": {
+			"type": "object",
+			"default": {
+				"color": "",
+				"gradient": "",
+				"opacity": ""
+			}
+		},
+		"backgroundMobile": {
+			"type": "object",
+			"default": {
+				"color": "",
+				"gradient": "",
+				"opacity": ""
+			}
+		},
+		"backgroundMedia": {
+			"type": "object",
+			"default": {
+				"image": {},
+				"focalPoint": {},
+				"fixedBackground": false,
+				"stretchImage": true
+			}
+		},
+		"backgroundMediaTablet": {
+			"type": "object",
+			"default": {
+				"image": {},
+				"focalPoint": {},
+				"fixedBackground": false,
+				"stretchImage": true
+			}
+		},
+		"backgroundMediaMobile": {
+			"type": "object",
+			"default": {
+				"image": {},
+				"focalPoint": {},
+				"fixedBackground": false,
+				"stretchImage": true
+			}
+		},
+		"isPreview": {
+			"type": "boolean",
+			"default": false
+		},
+		"verticalAlign": {
+			"type": "string",
+			"default": "center"
+		}
+	},
+	"supports": {
+		"color": {
+			"__experimentalDuotone": " ",
+			"text": false,
+			"background": false
+		},
+		"html": false
+	},
+	"styles": []
+}

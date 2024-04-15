@@ -1,0 +1,22 @@
+.blockslider-preview-toolbar {
+	width: 100%;
+	position: sticky;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	z-index: 9;
+}
+
+@media screen and ( min-width: 600px ) {
+	.blockslider-preview-toolbar.with-admin-bar {
+		top: var( --wp-admin--admin-bar--height, 32px ) !important;
+	}
+}
+.blockslider-preview-toolbar .blockslider-clipboard-field {
+	color: #ffffff;
+}

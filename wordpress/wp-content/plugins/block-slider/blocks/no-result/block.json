@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "cakewp/no-result",
+	"title": "No Result",
+	"category": "text",
+	"description": "A blockslider block that will be rendered when the blockslider query is empty.",
+	"keywords": [
+		"no",
+		"result"
+	],
+	"version": "1.0.0",
+	"textdomain": "block-slider",
+	"usesContext": [
+		"isBlocksliderPreview"
+	],
+	"attributes": {},
+	"supports": {
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		},
+		"align": [
+			"full",
+			"wide"
+		],
+		"html": false,
+		"multiple": false
+	},
+	"editorScript": []
+}

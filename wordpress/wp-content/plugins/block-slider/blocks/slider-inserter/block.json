@@ -1,0 +1,29 @@
+{
+    "$schema": "https://json.schemastore.org/block.json",
+    "apiVersion": 2,
+    "name": "cakewp/slider-inserter",
+    "title": "Block Slider",
+    "category": "text",
+    "description": "Insert pre-made block slider in the post.",
+    "keywords": [
+        "slider"
+    ],
+    "version": "1.0.0",
+    "textdomain": "block-slider",
+    "attributes": {
+        "selectedSlider": {
+            "type": "object",
+            "default": {
+                "id": null,
+                "url": null
+            }
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ]
+    },
+    "editorStyle": "cwpbs-block-slider-inserter-editor-style"
+}

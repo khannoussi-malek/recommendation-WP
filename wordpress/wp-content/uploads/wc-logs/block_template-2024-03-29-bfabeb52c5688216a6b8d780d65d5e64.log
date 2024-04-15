@@ -1,0 +1,140 @@
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => simple-product (area: product-form)
+    [block] => variations (name: woocommerce/product-tab)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => simple-product (area: product-form)
+    [block] => variations (name: woocommerce/product-tab)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => simple-product (area: product-form)
+    [block] => pricing (name: woocommerce/product-tab)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => simple-product (area: product-form)
+    [block] => shipping (name: woocommerce/product-tab)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => simple-product (area: product-form)
+    [block] => shipping (name: woocommerce/product-tab)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => basic-details (name: woocommerce/product-section)
+    [block] => product-pricing-conditional-wrapper (name: woocommerce/conditional)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => general (name: woocommerce/product-tab)
+    [block] => product-buy-button-section (name: woocommerce/product-section)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => general (name: woocommerce/product-tab)
+    [block] => product-list-section (name: woocommerce/product-section)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => general (name: woocommerce/product-tab)
+    [block] => product-downloads-section-group (name: woocommerce/product-section)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => product-downloads-section-group (name: woocommerce/product-section)
+    [block] => product-downloads-section (name: woocommerce/product-subsection)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => product-inventory-inner-section (name: woocommerce/product-subsection)
+    [block] => product-track-stock (name: woocommerce/product-toggle-field)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => product-inventory-inner-section (name: woocommerce/product-subsection)
+    [block] => product-inventory-quantity (name: woocommerce/product-inventory-quantity-field)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => product-inventory-inner-section (name: woocommerce/product-subsection)
+    [block] => product-inventory-quantity (name: woocommerce/product-inventory-quantity-field)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => product-inventory-section (name: woocommerce/product-section)
+    [block] => product-stock-status (name: woocommerce/product-radio-field)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => product-inventory-section (name: woocommerce/product-section)
+    [block] => product-stock-status (name: woocommerce/product-radio-field)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => product-inventory-section (name: woocommerce/product-section)
+    [block] => product-inventory-advanced (name: woocommerce/product-collapsible)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => woocommerce/product-section-1 (name: woocommerce/product-section)
+    [block] => product-out-of-stock (name: woocommerce/product-radio-field)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => woocommerce/product-section-1 (name: woocommerce/product-section)
+    [block] => product-inventory-email (name: woocommerce/product-inventory-email-field)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => shipping (name: woocommerce/product-tab)
+    [block] => product-virtual-section (name: woocommerce/product-section)
+)
+2024-03-29T19:16:36+00:00 WARNING Hide condition added to detached block. Block will not be included in the template, so the hide condition is not needed.
+Array
+(
+    [template] => simple-product (area: product-form)
+    [container] => linked-products (name: woocommerce/product-tab)
+    [block] => product-linked-cross-sells-section (name: woocommerce/product-section)
+)

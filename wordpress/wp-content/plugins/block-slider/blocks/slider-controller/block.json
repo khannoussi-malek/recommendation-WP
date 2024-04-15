@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/block.json",
+    "apiVersion": 2,
+    "name": "cakewp/slider-controller",
+    "title": "Slider Controller",
+    "category": "text",
+    "description": "Use a slider controller",
+    "keywords": [
+        "slider"
+    ],
+    "version": "1.0.0",
+    "textdomain": "block-slider",
+    "attributes": {},
+    "supports": {},
+    "styles": []
+}

@@ -1,0 +1,230 @@
+{
+     "$schema": "https://json.schemastore.org/block.json",
+     "apiVersion": 2,
+     "name": "cakewp/navigation-button",
+     "title": "Navigation Button",
+     "category": "text",
+     "description": "Block slider navigation",
+     "keywords": [
+          "slider"
+     ],
+     "parent": [
+          "cakewp/navigation"
+     ],
+     "version": "1.0.0",
+     "textdomain": "block-slider",
+     "attributes": {
+          "slideIndex": {
+               "type": "string",
+               "default": "1"
+          },
+          "direction": {
+               "type": "string",
+               "enum": [
+                    "next",
+                    "last",
+                    "first",
+                    "previous"
+               ]
+          },
+          "color": {
+               "type": "string",
+               "default": ""
+          },
+          "colorTablet": {
+               "type": "string",
+               "default": ""
+          },
+          "colorMobile": {
+               "type": "string",
+               "default": ""
+          },
+          "border": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "borderTablet": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "borderMobile": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "borderRadius": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "borderRadiusTablet": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "borderRadiusMobile": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "background": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "backgroundTablet": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "backgroundMobile": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "backgroundMedia": {
+               "type": "object",
+               "default": {
+                    "image": {},
+                    "focalPoint": {},
+                    "fixedBackground": false,
+                    "stretchImage": true
+               }
+          },
+          "backgroundMediaTablet": {
+               "type": "object",
+               "default": {
+                    "image": {},
+                    "focalPoint": {},
+                    "fixedBackground": false,
+                    "stretchImage": true
+               }
+          },
+          "backgroundMediaMobile": {
+               "type": "object",
+               "default": {
+                    "image": {},
+                    "focalPoint": {},
+                    "fixedBackground": false,
+                    "stretchImage": true
+               }
+          },
+          "padding": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "paddingTablet": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "paddingMobile": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "hoverBorder": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "hoverBorderRadius": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "hoverBackground": {
+               "type": "object",
+               "default": {
+                    "color": "#818181",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "hoverPadding": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "label": {
+               "type": "string",
+               "default": ""
+          },
+          "content": {
+               "type": "string",
+               "default": "text"
+          },
+          "navigationIcon": {
+               "type": "string",
+               "default": "arrow-right-alt-2"
+          },
+          "iconSize": {
+               "type": "number",
+               "default": 20
+          }
+     },
+     "supports": {
+          "typography": {
+               "fontSize": true,
+               "__experimentalFontStyle": true,
+               "__experimentalFontWeight": true
+          }
+     },
+     "styles": []
+}

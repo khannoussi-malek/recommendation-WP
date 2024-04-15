@@ -1,0 +1,314 @@
+{
+     "$schema": "https://json.schemastore.org/block.json",
+     "apiVersion": 2,
+     "name": "cakewp/navigation",
+     "title": "Arrow Controls",
+     "category": "text",
+     "description": "Arrow controls let users move through slides. You can select between next, previous, first, last, etc",
+     "keywords": [
+          "slider"
+     ],
+     "version": "1.0.0",
+     "textdomain": "block-slider",
+     "attributes": {
+          "orientation": {
+               "type": "string",
+               "default": "horizontal"
+          },
+          "justification": {
+               "type": "string",
+               "default": "center"
+          },
+          "wrapperBorder": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "wrapperBorderTablet": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "wrapperBorderMobile": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "wrapperBorderRadius": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "wrapperBorderRadiusTablet": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "wrapperBorderRadiusMobile": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "wrapperBackground": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "wrapperBackgroundTablet": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "wrapperBackgroundMobile": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "wrapperPadding": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "wrapperPaddingTablet": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "wrapperPaddingMobile": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "backgroundMedia": {
+               "type": "object",
+               "default": {
+                    "image": {},
+                    "focalPoint": {},
+                    "fixedBackground": false,
+                    "stretchImage": true
+               }
+          },
+          "backgroundMediaTablet": {
+               "type": "object",
+               "default": {
+                    "image": {},
+                    "focalPoint": {},
+                    "fixedBackground": false,
+                    "stretchImage": true
+               }
+          },
+          "backgroundMediaMobile": {
+               "type": "object",
+               "default": {
+                    "image": {},
+                    "focalPoint": {},
+                    "fixedBackground": false,
+                    "stretchImage": true
+               }
+          },
+          "itemsColor": {
+               "type": "string",
+               "default": "#ffffff"
+          },
+          "itemsColorTablet": {
+               "type": "string",
+               "default": ""
+          },
+          "itemsColorMobile": {
+               "type": "string",
+               "default": ""
+          },
+          "itemsBorder": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "itemsBorderTablet": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "itemsBorderMobile": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "itemsBorderRadius": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "itemsBorderRadiusTablet": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "itemsBorderRadiusMobile": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "itemsBackground": {
+               "type": "object",
+               "default": {
+                    "color": "#000000",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "itemsBackgroundTablet": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "itemsBackgroundMobile": {
+               "type": "object",
+               "default": {
+                    "color": "",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "itemsPadding": {
+               "type": "object",
+               "default": {
+                    "top": "12px",
+                    "right": "24px",
+                    "bottom": "12px",
+                    "left": "24px"
+               }
+          },
+          "itemsHoverColor": {
+               "type": "string",
+               "default": ""
+          },
+          "itemsPaddingTablet": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "itemsPaddingMobile": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "itemsHoverBorder": {
+               "type": "object",
+               "default": {
+                    "width": "",
+                    "style": "",
+                    "color": ""
+               }
+          },
+          "itemsHoverBorderRadius": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          },
+          "itemsHoverBackground": {
+               "type": "object",
+               "default": {
+                    "color": "#818181",
+                    "gradient": "",
+                    "opacity": ""
+               }
+          },
+          "itemsHoverPadding": {
+               "type": "object",
+               "default": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+               }
+          }
+     },
+     "supports": {
+          "align": [
+               "wide",
+               "full"
+          ],
+          "inserter": false
+     },
+     "styles": [],
+     "editorScript": "cwpbs-block-slider-navigation-script",
+     "editorStyle": "cwpbs-block-slider-navigation-editor-style"
+}
